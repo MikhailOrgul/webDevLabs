@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Авто-Оргул</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="assets/img/logo.png"
+              alt="Авто-Оргул"
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top me-2"
+            />
+            Запчасти ВАЗ
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle
+navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">
+                  <i class="bi-house-door me-1">Главная</i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">
+                  <i class="bi-basket2-fill me-1">Каталог</i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> <i class="bi-info-circle me-1">О нас</i> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <h1>Авто-Оргул</h1>
+
+      <p>
+        Тазы валят <br />
+        Шеснарь дует двинарь газует <br />
+      </p>
+
+      <div id="mainCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#mainCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <div class="carousel-inner rounded shadow-sm">
+          <div class="carousel-item active">
+            <img src="assets/img/2110.jpg" class="d-block w-100" alt="ВАЗ 2110" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/2112.jpg" class="d-block w-100" alt="ВАЗ 2112" />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mainCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mainCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <section class="mt-5">
+        <h2 class="mb-4">Отзывы о нас</h2>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">Машины нет, магаз норм</p>
+              </div>
+              <div class="card-footer bg-white">
+                <strong>Лёха</strong><br />
+                <small class="text-muted">г. Пермь</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  На приору ваще топ, жаль гнилая. Купил 10 литров фриза, до дома доехать хватит
+                </p>
+              </div>
+              <div class="card-footer bg-white">
+                <strong>Диман</strong><br />
+                <small class="text-muted">г. Пермь</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">У меня авео, побили(</p>
+              </div>
+              <div class="card-footer bg-white">
+                <strong>Тимофей</strong><br />
+                <small class="text-muted">г. Пермь</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
