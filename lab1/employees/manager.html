@@ -3,42 +3,55 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Генеральный директор</title>
+    <title>Менеджер по продажам</title>
 
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css" />
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../assets/bootstrap-icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">Запчасти ВАЗ</a>
-          <div class="collapse navbar-collapse">
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="../about.html">← Назад к команде</a>
+                <a class="nav-link" href="../about.html"> ← Назад к команде </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
     <main class="container mt-4">
-      <h1>Генеральный директор</h1>
+      <h1>Менеджер по продажам</h1>
 
-      <img src="../assets/img/me.jpg" class="avatar mb-3" alt="Генеральный директор" />
+      <img src="../assets/img/jezza.jpg" class="avatar mb-3" alt="Менеджер по продажам" />
 
-      <p>
-        Генеральный директор компании «Авто-Оргул». Отвечает за стратегию развития, взаимодействие с
-        поставщиками и контроль качества автозапчастей.
+      <p class="lead text-muted text-center">
+        Менеджер по продажам компании «Авто-Оргул». Консультирует клиентов по ассортименту, помогает
+        подобрать автозапчасти под конкретную модель автомобиля и оформляет заказы. Отвечает за
+        взаимодействие с клиентами и сопровождение покупки на всех этапах.
       </p>
 
-      <p>
+      <p class="text-center">
         <strong>Email:</strong>
-        <a href="mailto:director@auto-orgul.ru">director@auto-orgul.ru</a>
+        <a href="mailto:manager@auto-orgul.ru">manager@auto-orgul.ru</a>
       </p>
     </main>
   </body>
