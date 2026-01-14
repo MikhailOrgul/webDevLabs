@@ -1,0 +1,41 @@
+@import "../../public/assets/bootstrap/css/bootstrap.css";
+@import "../../public/assets/bootstrap-icons/bootstrap-icons.css";
+
+.avatar {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.avatar-post {
+    margin-top: 1rem;   /* отступ сверху */
+    font-size: 1.4rem;  /* увеличить размер шрифта */
+    text-align: center; /* выровнять текст по центру*/
+}
+
+.avatar-text {
+    color: rgb(140, 140, 140); /* цвет текста - серый*/
+    font-size: 1.1rem;           /* увеличить размер шрифта */
+    text-align: center;          /* выровнять текст по центру*/
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.product-name {
+    font-size: 1.4rem;  /* увеличить размер шрифта */
+}
+
+.product-description {
+    font-size: 1.1rem;  /* увеличить размер шрифта */
+    color: rgb(60, 60, 60);
+}
+
+.product-price {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(210, 210, 210);
+    margin: 0 1rem;
+}
