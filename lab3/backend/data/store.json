@@ -26,28 +26,28 @@
       "name": "Масло моторное 10W-40",
       "description": "Полусинтетическое масло 10W-40 для стабильной работы двигателя в разных режимах.",
       "price": 2100,
-      "image": "/assets/img/t1.jpeg"
+      "image": "/assets/img/oil.png"
     },
     {
       "id": 5,
       "name": "Свечи зажигания комплект",
       "description": "Комплект свечей зажигания с увеличенным ресурсом и стабильной искрой.",
       "price": 950,
-      "image": "/assets/img/t2.jpeg"
+      "image": "/assets/img/plugs.png"
     },
     {
       "id": 6,
       "name": "Ремень ГРМ",
       "description": "Надежный ремень ГРМ для автомобилей ВАЗ с повышенной износостойкостью.",
       "price": 1350,
-      "image": "/assets/img/t3.jpeg"
+      "image": "/assets/img/belt.png"
     },
     {
       "id": 7,
       "name": "Фильтр салона",
       "description": "Салонный фильтр для очистки воздуха в автомобиле от пыли и аллергенов.",
       "price": 650,
-      "image": "/assets/img/p1.jpeg"
+      "image": "/assets/img/filter.png"
     }
   ],
   "users": [
@@ -57,6 +57,13 @@
       "email": "admin@shop.local",
       "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
       "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Regular user",
+      "email": "email@test.ru",
+      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "role": "user"
     }
   ],
   "carts": []
