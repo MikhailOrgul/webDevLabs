@@ -648,7 +648,7 @@ func getSessionUserID(c echo.Context) (int, bool) {
 func requireAuth(c echo.Context) (*User, error) {
 	user, err := getSessionUser(c)
 	if err != nil {
-		return nil, c.JSON(http.StatusUnauthorized, map[string]string{"error": "Требуется авторизация."})
+		return nil, echo.NewHTTPError(http.StatusUnauthorized, map[string]string{"error": "Требуется авторизация."})
 	}
 	return user, nil
 }
